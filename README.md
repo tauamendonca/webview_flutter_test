@@ -1,16 +1,13 @@
-# base_app
+# Webview Example
 
-A new Flutter project.
+Implementation of the Webview_flutter package using Notion web pages as links.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Make sure the SDK version has been set to a minimum of 19 in Android -> App -> build.gradle
 
-A few resources to get you started if this is your first Flutter project:
+Be aware that the line ``` android:usesCleartextTraffic="true" ``` was added to AndroidManifest.xml  
+without Notion and some other websites might not be able to load
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For the moment, the package was only set up to run in Android (and possibly iOS, but this one remais untested)
+So set up your emulator or phone and use debug mode with Dart/Flutter to run. 
